@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Openings</title>
+</head>
+<body>
+    <form>
+        <table border="1">
+            <tr>
+                <th> Name: </th>
+                <td><input type="text" name="name" size="15"/> </td> 
+                <br> <br> 
+            </tr>
+            <br>
+            <br>
+
+            <tr>
+                <th>Password:</th>
+                <td><input type="Password" id="pass" name="pass"> </td><br> 
+            </tr>
+            <br>
+            <br>
+
+            <tr>
+        
+                <th>Email:</th>  
+                <td><input type="email" id="email" name="email"/> </td><br>    
+            </tr>
+            <br>
+            <br> 
+
+            <tr> 
+                <th>
+                    <label>   
+                    Phone :  
+                    </label>  
+                </th>
+                <td>
+                    <input type="text" name="country code"  value="+91" size="2"/>   
+                    <input type="tel" name="phone" size="10"/> 
+                </td>  
+
+                <tr>
+                    <th>
+                        <label for="technology">Choose Technology:
+                        <input list="technology" name="technology"></label>
+                        <datalist id="technology">
+                            <option value="HTML5"></option>
+                            <option value="JS"></option>
+                            <option value="CSS"></option>
+                            <option value="JAVA"></option>
+                            <option value="Python"></option>
+                            <option value="MangoDB"></option>
+                            <option value="MySQL"></option>
+                        </datalist>
+                </tr>
+
+                <tr>
+                    <th>
+                        <label for="qualification">Choose Your Qulification:</label>
+                    </th>
+                    <td>
+                        <input type="checkbox" id="qua1" name="qua1" value="B.E">
+                        <label for="qua1"> B.E</label><br>
+                        <input type="checkbox" id="qua2" name="qua2" value="B.Tech">
+                        <label for="qua2"> B.Tech</label><br>
+                        <input type="checkbox" id="qua3" name="qua3" value="BSc">
+                        <label for="qua3"> BSc</label><br>
+                        <input type="checkbox" id="qua4" name="qua4" value="BBA">
+                        <label for="qua4"> BBA</label><br>
+                        <input type="checkbox" id="que5" name="qua5" value="Diploma">
+                        <label for="qua5"> Diploma</label><br>
+                    </td>
+                </tr>
+
+            </tr>
+
+        </table>
+        <input type="submit" value="Register" formaction="about.html" formmethod="POST">
+        <input type="button" value="Reset"/> 
+    </form>
+</body>
+</html>

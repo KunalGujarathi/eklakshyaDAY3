@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+<fieldset>
+    <legend><h2>Welcome</h2></legend>
+<form>
+      
+    <table border="1">
+        <tr>
+            <tr>
+                <th><label> Firstname: </label></th>
+                <td><input type="text" name="firstname" size="15" placeholder="First Name" required/> </td> 
+                <br> <br> 
+            </tr>
+            <tr>
+                <th><label> Middlename: </label></th>     
+                <td><input type="text" name="middlename" size="15" placeholder="Middle Name"/></td> <br> <br> 
+            </tr>
+            <tr>
+                <th><label> Lastname: </label></th>         
+                <td><input type="text" name="lastname" size="15" placeholder="Last Name" required/> </td><br> <br>
+            </tr>
+            <br>
+            <tr>  
+                <th>
+                    <label>   
+                    Course :  
+                    </label>
+                </th>
+
+                <td>
+                    <select required>  
+                    <option value="Course">Course</option>  
+                    <option value="BCA">BCA</option>  
+                    <option value="BBA">BBA</option>  
+                    <option value="B.Tech">B.Tech</option>  
+                    <option value="MBA">MBA</option>  
+                    <option value="MCA">MCA</option>  
+                    <option value="M.Tech">M.Tech</option>  
+                    </select> 
+                </td> 
+            </tr>
+          
+            <br>  
+            <br>
+            <tr>  
+                <th>
+                    <label>   
+                    Gender :  
+                    </label>
+                </th><br>
+
+                <td>
+                    <input type="radio" name="r1" required> Male <br>  
+                    <input type="radio" name="r1"/> Female <br>  
+                    <input type="radio" name="r1"/> Other 
+                </td>
+            </tr> 
+            <br>  
+            <br>  
+            <tr> 
+                <th>
+                    <label>   
+                    Phone :  
+                    </label>  
+                </th>
+                <td>
+                    <input type="text" name="country code"  value="+91" size="2"/>   
+                    <input type="tel" name="phone" size="10"/> 
+                </td>  
+            </tr>
+            <br>
+            <br>
+
+            <tr>
+                <th>Address:</th>
+                <br>
+                <td><textarea cols="80" rows="5" value="address">  
+                </textarea></td> 
+            </tr>
+            <br>
+            <br>
+            <tr>
+                <th> Date-of-Birth: </th>
+                <td><input type="datetime-local" name="datetime" required></td>
+            </tr>
+            <tr>
+        
+                <th>Email:</th>  
+                <td><input type="email" id="email" name="email" placeholder="abc@gmail.com" required/> </td><br>    
+            </tr>
+            <br>
+            <br>  
+
+            <tr>
+                <th>Password:</th>
+                <td><input type="Password" id="pass" name="pass" required> </td><br> 
+            </tr>
+          
+        
+            <br>
+            <br>
+            
+            <tr>
+                <th> Re-Enter Password: </th> 
+                <td><input type="Password" id="repass" name="repass" required></td> <br> <br>  
+            </tr>
+            
+        </tr>
+    </table> 
+        <input type="Submit" formaction="profile.html" formmethod="POST">
+        <input type="button" value="Reset"/>   
+</form>
+</fieldset>    
+      
+</body>
+</html>
